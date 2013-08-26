@@ -1,0 +1,50 @@
+
+{% extends "base.html" %}
+
+{% block extra_css %}
+
+
+{% endblock %}
+
+{% block body_js %}
+<script type = "text/javascript">
+	//window.setInterval(UpdateDataAjax(),6000)	
+
+	$(document).ready(function() {
+	initializeHiveplotVars();
+	DocReady();
+	    });
+	
+	 
+</script>
+	
+
+{% endblock %}
+
+
+{% block ConfigMenu %}
+	
+{% endblock %}
+{% block header %}
+
+
+
+{% endblock %}
+
+{% block main_content %}
+
+
+
+<svg class="hiveplot">
+
+<g transform ="translate(380, 385)"></g>
+
+<div class="thumbnail_menu">
+<div class="thumbnail_menu_label">Views</div></div>
+</svg>
+
+
+
+
+{% endblock %}
+
